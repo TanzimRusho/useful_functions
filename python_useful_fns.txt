@@ -1,1 +1,11 @@
 string = string.replace(substr1, substr2)
+=========================================
+# 5*5 matrix input
+matrix = []
+
+for i in range(5):
+    row = list(map(int, input().split()))
+    matrix.append(row)
+    
+print(matrix[4][4])
+=========================================
