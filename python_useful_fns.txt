@@ -1,3 +1,22 @@
+=========================================
+# runtime calculation
+import time
+
+n_trials = 1000
+
+result = []
+
+for _ in range(n_trials):
+    t_0 = time.time()
+    # 
+    #   code to test
+    #
+    t_elapsed = time.time() - t_0
+    result.append(t_elapsed)
+
+print(result)
+print(sum(result) / len(result))
+=========================================
 string = string.replace(substr1, substr2)
 =========================================
 # 5*5 matrix input
