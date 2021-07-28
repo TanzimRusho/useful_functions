@@ -1,0 +1,23 @@
+============================================================
+// using malloc()
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    short int *big; 
+    
+    big = malloc(6000000 * sizeof(short int));
+    
+    if(big==NULL)
+    {
+        fputs("Failed to allocate memory!\n", stderr);
+        return 1;
+    }
+    
+    // rest of the works...
+    
+    free(big);
+    return 0;
+}
+===========================================================
