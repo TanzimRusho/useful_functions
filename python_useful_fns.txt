@@ -1,4 +1,12 @@
 =========================================
+# decimal to binary conversion function
+# given a decimal number n 
+
+binary = bin(n).replace("0b", "")
+
+type(n): int, type(binary): str
+=========================================
+# pop():
 numbers = [1, 2, 3, 4, 5]
 result = []
 
