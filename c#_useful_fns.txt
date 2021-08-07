@@ -1,0 +1,15 @@
+=============================================
+// reverse a string
+string Reverse(string text)
+{
+    char[] chars = text.ToCharArray(); 
+    char[] result = new char[text.Length];
+
+    for(int i=0, j=text.Length-1; i < text.Length; ++i, --j)
+    {
+        result[i] = chars[j];
+    }
+
+    return new string(result);
+}
+=============================================
