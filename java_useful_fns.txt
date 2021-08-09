@@ -1,0 +1,4 @@
+=======================================
+// Integer to String conversion method
+String s = Integer.toString(n);  
+=======================================
