@@ -1,3 +1,31 @@
+=============================================================
+from collections import defaultdict
+def count_default(x):
+    count_dict = defaultdict(int)
+    for ele in x:
+        count_dict[ele] += 1
+    return count_dict
+ele = ['a','b','a','c','b','b','d']
+count_default(ele)
+
+# Output: defaultdict(int, {'a': 2, 'b': 3, 'c': 1, 'd': 1})
+=============================================================
+# namedtuples
+
+from collections import namedtuple
+
+Vector3 = namedtuple('Vector', ['x', 'y', 'z'])
+
+vec = Vector3(1, 2, 3)
+vec.x, vec.y, vec.z
+
+# Output: 1 2 3
+
+def tfunc(a,b,c):
+    print(a,b,c)
+tfunc(*vec)
+
+# Output: (1, 2, 3)
 ================================================
 <= denotes whether all elements of the first set
 is in the second
