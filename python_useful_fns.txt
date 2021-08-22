@@ -1,4 +1,9 @@
 ========================================
+# to avoid <class 'int'> part
+from collections import defaultdict
+
+dict(defaultdict(int))
+========================================
 isinstance(<object_name>, <class_name>)
 ========================================
 from collections import Counter
