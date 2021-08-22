@@ -1,4 +1,6 @@
-================================
+========================================
+isinstance(<object_name>, <class_name>)
+========================================
 from collections import Counter
 
 names = ["a", "a", "a"]
