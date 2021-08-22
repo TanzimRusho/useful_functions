@@ -1,4 +1,8 @@
 ========================================
+# from getting default value 1
+
+defaultdict(lambda: 1)
+========================================
 # to avoid <class 'int'> part
 from collections import defaultdict
 
