@@ -1,4 +1,8 @@
 =======================================
+// String reverse
+Scanner sc=new Scanner(System.in); String str=sc.next();
+String rev = new StringBuffer(str).reverse().toString();
+=======================================
 // Integer to String conversion method
 String s = Integer.toString(n);  
 =======================================
