@@ -1,4 +1,11 @@
-========================================
+=============================================
+# list the contents of the current directory
+# ('.' refers to the current directory)
+
+import os
+
+os.listdir('.')
+=============================================
 # from getting default value 1
 
 defaultdict(lambda: 1)
